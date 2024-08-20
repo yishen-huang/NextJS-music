@@ -1,5 +1,0 @@
-fileChangeLogs:
-  - '.1024'
-  - node_modules
-  - README.md
-  - package.json
