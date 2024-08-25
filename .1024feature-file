@@ -6,3 +6,7 @@ fileChangeLogs:
   - .next
   - next-env.d.ts
   - README.md
+  - .env
+  - app/page.tsx
+  - public/audio/屏幕录制 2024-04-17 174804.mp4
+  - public/cover/屏幕截图 2024-08-14 111733.png
