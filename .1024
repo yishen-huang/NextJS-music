@@ -1,0 +1,2 @@
+compile_command: pnpm run build
+run_command: pnpm run devt 

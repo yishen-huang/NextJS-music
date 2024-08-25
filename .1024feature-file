@@ -1,0 +1,8 @@
+fileChangeLogs:
+  - .pnpm-store
+  - node_modules
+  - .env.local
+  - '.1024'
+  - .next
+  - next-env.d.ts
+  - README.md
