@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
     // 保存封面
     const bytes2 = await cover.arrayBuffer()
     const buffer2 = Buffer.from(bytes2)
-    // 这里是你要进行保存的文件目录地址
+    // 这里是你要进行保存的文件目录地址现场v在
     const path2 = `./public/cover/${cover.name}`
     await writeFile(path2, buffer2)
     console.log(`open ${path2} to see the uploaded file`)
