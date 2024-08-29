@@ -1,1 +1,1 @@
-run_command: pnpm run dev
+run_command: npm run dev
