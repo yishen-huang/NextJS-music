@@ -34,3 +34,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Clacky ignore rules
+cython_debug/
+.git/
+.1024.nix
+.1024feature*
+.nfs*
+*.dll
+.paas-unit-*
+core.*
+.breakpoints
+.env
