@@ -21,3 +21,8 @@ fileChangeLogs:
   - public/audio/Snipaste_2024-08-12_15-09-27.png
   - public/cover/Snipaste_2024-08-12_15-19-17.png
   - app/audio/upload/page.tsx
+  - prisma/schema.prisma
+  - prisma/dev.db-journal
+  - prisma/migrations
+  - public/cover/屏幕截图 2024-08-29 192433.png
+  - app/api/audio/list/page.tsx

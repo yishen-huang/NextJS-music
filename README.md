@@ -20,4 +20,4 @@ add 环境  dingdingding test
 
 ## Advertisement
 
-This is a placeholder for your advertisement. Reach out to us for advertising opportunities!
+Check out our new product launch on [www.example.com](http://www.example.com)! Don't miss the exclusive offers.
