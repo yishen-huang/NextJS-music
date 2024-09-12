@@ -13,3 +13,4 @@ pnpm dev
 ```
 测试数据
 
+npx prisma migrate dev
