@@ -64,14 +64,14 @@ export default function Home() {
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <input 
           type="text" 
-          placeholder="Enter key" 
+          placeholder="Please enter key" 
           value={key} 
           onChange={(e) => setKey(e.target.value)} 
           style={{ marginBottom: '10px', padding: '5px', fontSize: '16px' }}
         />
         <input 
           type="text" 
-          placeholder="Enter value" 
+          placeholder="Please enter value" 
           value={value} 
           onChange={(e) => setValue(e.target.value)} 
           style={{ marginBottom: '10px', padding: '5px', fontSize: '16px' }}
