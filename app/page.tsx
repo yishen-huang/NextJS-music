@@ -29,7 +29,23 @@ export default function Home() {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column', position: 'relative' }}>
+      <div style={{ position: 'absolute', top: '10px', left: '10px', textAlign: 'left', maxWidth: '300px', fontSize: '14px', lineHeight: '1.5' }}>
+        Music List Management:
+        Routes:
+        GET /api/audio/list: Retrieves all music lists.
+        POST /api/audio/list: Creates a new music list for a user. Validates the user and saves the list.
+        PUT /api/audio/list: Adds a music track to an existing list.
+        Methods in @/lib/musicList and @/lib/user are used for adding and retrieving data.
+        Music Retrieval and Upload:
+        Routes:
+        GET /api/audio: Retrieves all music details.
+        POST /api/audio: Handles file uploads for music tracks and cover images, saves them to the server, and stores metadata in the database.
+        The system checks for files, saves them, and returns success with the music details.
+        Music Data Handling:
+        In lib/music.js, functions implement database operations to get music by title or singer, save new music entries, and retrieve music details by ID.
+      </div>
+      
       <button 
         onClick={handleClick} 
         style={{ 
