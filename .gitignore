@@ -110,3 +110,4 @@ vendor/
 *.env.test.local
 *.env.production.local
 coverage/
+add.txt
