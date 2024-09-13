@@ -1,5 +1,5 @@
-'use client'
-import { useRouter } from 'next/navigation'
+'use client';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 export default function Home() {
@@ -49,16 +49,15 @@ export default function Home() {
       <button 
         onClick={handleClick} 
         style={{ 
-          backgroundColor: 'red', 
-          color: 'yellow', 
+          backgroundColor: 'blue', 
           width: '100px', 
           height: '50px',
           fontSize: '12px',
           cursor: 'pointer',
-          marginBottom: '20px'
+          marginBottom: '400px' 
         }}
       >
-        Upload
+        redis send
       </button>
 
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -67,17 +66,20 @@ export default function Home() {
           placeholder="Please enter key" 
           value={key} 
           onChange={(e) => setKey(e.target.value)} 
-          style={{ marginBottom: '10px', padding: '5px', fontSize: '16px' }}
+          style={{ marginBottom: '20px', padding: '5px', fontSize: '16px', width: '200px' }}
         />
         <input 
           type="text" 
           placeholder="Please enter value" 
           value={value} 
           onChange={(e) => setValue(e.target.value)} 
-          style={{ marginBottom: '10px', padding: '5px', fontSize: '16px' }}
+          style={{ marginBottom: '20px', padding: '5px', fontSize: '16px', width: '200px' }}
         />
-        <button type="submit" style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-          Store in Redis
+        <button 
+          type="submit" 
+          style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', backgroundColor: 'blue' }}
+        >
+          page jump
         </button>
       </form>
     </div>
