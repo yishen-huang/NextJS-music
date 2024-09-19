@@ -28,6 +28,10 @@ export default function Home() {
     }
   };
 
+  const handleRedirect = () => {
+    window.location.href = 'https://www.baidu.com';
+  };
+
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column', position: 'relative' }}>
       <div style={{ position: 'absolute', top: '10px', left: '10px', textAlign: 'left', maxWidth: '300px', fontSize: '14px', lineHeight: '1.5' }}>
@@ -82,6 +86,24 @@ export default function Home() {
           page jump
         </button>
       </form>
+      <button 
+        onClick={handleRedirect} 
+        style={{ 
+          position: 'absolute', 
+          bottom: '20px', 
+          right: '20px', 
+          backgroundColor: 'red', 
+          color: 'white', 
+          padding: '10px 20px', 
+          border: 'none', 
+          borderRadius: '5px',
+          cursor: 'pointer'
+        }}
+      >
+        Go to Baidu
+      </button>
     </div>
+
+     // 这是注释
   );
 }
