@@ -33,3 +33,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Clacky specific ignore rules
+*.log
+*.cache
+/node_modules/.cache
+dist/
+*.egg-info/
+.env
+.env.local
+.vscode/
+.idea/
+*.tgz
+client/
+build/
+coverage/
+
