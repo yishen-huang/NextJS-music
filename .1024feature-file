@@ -4,3 +4,4 @@ fileChangeLogs:
   - .gitignore
   - .next
   - next-env.d.ts
+  - .pnpm-store

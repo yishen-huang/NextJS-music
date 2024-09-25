@@ -38,6 +38,7 @@ next-env.d.ts
 *.log
 *.cache
 /node_modules/.cache
+/.pnpm-store/
 dist/
 *.egg-info/
 .env
@@ -48,4 +49,3 @@ dist/
 client/
 build/
 coverage/
-
