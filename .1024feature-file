@@ -5,3 +5,4 @@ fileChangeLogs:
   - .next
   - next-env.d.ts
   - .pnpm-store
+  - app/login/page.tsx
