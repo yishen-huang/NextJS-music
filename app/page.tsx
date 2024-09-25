@@ -11,7 +11,7 @@ export default function Home() {
     router.push('/audio/upload');
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     const res = await fetch('/api/redis', {
       method: 'POST',
@@ -61,7 +61,7 @@ export default function Home() {
           marginBottom: '400px' 
         }}
       >
-        redis send
+        page jump
       </button>
 
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -83,7 +83,7 @@ export default function Home() {
           type="submit" 
           style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', backgroundColor: 'blue' }}
         >
-          page jump
+          redis send
         </button>
       </form>
       <button 
@@ -104,6 +104,5 @@ export default function Home() {
       </button>
     </div>
 
-     // 这是注释
   );
 }
