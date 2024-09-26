@@ -1,9 +1,0 @@
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('83b07eac-6c49-4f4b-98b4-23e50d6965cd', '告白气球', '周杰伦', 'http://localhost:3000/audio/告白气球--周杰伦.wav', 'http://localhost:3000/cover/告白气球.jpg');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('86fd5bba-1fb4-436b-88e8-fcb7fbb2af85', '多远都要在一起', '邓紫棋', 'http://localhost:3000/audio/多远都要在一起-G.E.M.邓紫棋.flac', 'http://localhost:3000/cover/多远都要在一起.webp');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('40a9f020-f8b2-4042-9325-8ddb287ec1d4', '光年之外', '邓紫棋', 'http://localhost:3000/audio/光年之外-G.E.M.邓紫棋.flac', 'http://localhost:3000/cover/光年之外-G.E.M.邓紫棋.webp');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('9d5e5ec5-c85c-4ead-8447-64ccc5251626', '江南', '林俊杰', 'http://localhost:3000/audio/江南-林俊杰.320.mp3', 'http://localhost:3000/cover/江南.webp');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('c5439f3c-f867-4b20-9123-f2e4035336be', '可惜没如果', '林俊杰', 'http://localhost:3000/audio/可惜没如果-林俊杰.320.mp3', 'http://localhost:3000/cover/可惜没如果.webp');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('5ca41256-b24e-4f5f-9c7e-bf29b4649576', '烟花易冷', '周深', 'http://localhost:3000/audio/周深-烟花易冷.mp3', 'http://localhost:3000/cover/烟花易冷-周深.jpg');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('d06b8941-5c87-48d7-a90d-cb8693538391', '起风了', '周深', 'http://localhost:3000/audio/周深 - 起风了.mp3', 'http://localhost:3000/cover/起风了-周深.jpg');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('b937e90f-c672-4947-a395-ca10b02a71bf', '大鱼', '周深', 'http://localhost:3000/audio/周深 - 大鱼.mp3', 'http://localhost:3000/cover/大鱼-周深.jpg');
-INSERT INTO music (id, title, singer, src, coverImgUrl) VALUES ('f0fca7b0-bee0-4e9a-9e00-86a670359cfb', '甜甜的', '周杰伦', 'http://localhost:3000/audio/甜tian的.mp3', 'http://localhost:3000/cover/甜甜的-周杰伦.jpg');
