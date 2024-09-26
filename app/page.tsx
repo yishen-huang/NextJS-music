@@ -34,29 +34,23 @@ export default function Home() {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column', position: 'relative' }}>
-      <div style={{ position: 'absolute', top: '10px', left: '10px', textAlign: 'left', maxWidth: '300px', fontSize: '14px', lineHeight: '1.5' }}>
-        Music List Management:
-        Routes:
-        GET /api/audio/list: Retrieves all music lists.
-        POST /api/audio/list: Creates a new music list for a user. Validates the user and saves the list.
-        PUT /api/audio/list: Adds a music track to an existing list.
-        Methods in @/lib/musicList and @/lib/user are used for adding and retrieving data.
-        Music Retrieval and Upload:
-        Routes:
-        GET /api/audio: Retrieves all music details.
-        POST /api/audio: Handles file uploads for music tracks and cover images, saves them to the server, and stores metadata in the database.
-        The system checks for files, saves them, and returns success with the music details.
-        Music Data Handling:
-        In lib/music.js, functions implement database operations to get music by title or singer, save new music entries, and retrieve music details by ID.
-      </div>
+    <div style={{ position: 'absolute', top: '100px', left: '30px', textAlign: 'left', maxWidth: '3000px', fontSize: '14px', lineHeight: '1.5' }}>
+        Music List Management:<br />
+        GET /api/audio/list: Retrieves all music lists.<br />
+        POST /api/audio/list: Creates a new music list for a user. Validates the user and saves the list.<br />
+        PUT /api/audio/list: Adds a music track to an existing list.<br />
+        GET /api/audio: Retrieves all music details.<br />
+        POST /api/audio: Handles file uploads for music tracks and cover images
+    </div>
+
       
       <button 
         onClick={handleClick} 
         style={{ 
           backgroundColor: 'blue', 
-          width: '100px', 
-          height: '50px',
-          fontSize: '12px',
+          width: '200px', 
+          height: '100px',
+          fontSize: '16px',
           cursor: 'pointer',
           marginBottom: '400px' 
         }}
@@ -81,7 +75,7 @@ export default function Home() {
         />
         <button 
           type="submit" 
-          style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', backgroundColor: 'blue' }}
+          style={{ padding: '50px 100px', fontSize: '24px', cursor: 'pointer', backgroundColor: 'red' }}
         >
           redis send
         </button>
@@ -92,7 +86,7 @@ export default function Home() {
           position: 'absolute', 
           bottom: '20px', 
           right: '20px', 
-          backgroundColor: 'red', 
+          backgroundColor: 'black', 
           color: 'white', 
           padding: '10px 20px', 
           border: 'none', 
