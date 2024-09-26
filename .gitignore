@@ -53,3 +53,6 @@ Thumbs.db
 .vscode/
 *.log
 *.tmp
+
+# Additional Clacky-specific ignore rules
+# Add any additional relevant configurations that are necessary to keep the repository clean.
