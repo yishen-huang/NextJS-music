@@ -34,25 +34,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Clacky ignore rules
-cython_debug/
-.git/
-.1024.nix
-.1024nix
-.1024feature*
-.nfs*
-*.dll
-.paas-unit-*
-core.*
-.breakpoints
-.env
-
 # General
 Thumbs.db
 .idea/
 .vscode/
 *.log
 *.tmp
-
-# Additional Clacky-specific ignore rules
-# Add any additional relevant configurations that are necessary to keep the repository clean.
