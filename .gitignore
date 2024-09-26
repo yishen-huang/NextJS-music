@@ -40,3 +40,9 @@ Thumbs.db
 .vscode/
 *.log
 *.tmp
+
+# Clacky-specific ignore rules
+*.clacky
+*.clackyignore
+.clackyconfig.json
+.clackyoutput/

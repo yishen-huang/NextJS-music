@@ -27,6 +27,8 @@ model User {
   username  String
   password  String
   email     String      @unique
+  avatarUrl String // 头像
+  musicList musicList[] // user - music list 一对多
 }
 
 model music {
