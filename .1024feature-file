@@ -13,3 +13,4 @@ fileChangeLogs:
   - public/audio/Snipaste_2024-09-13_16-02-44.png
   - public/cover/Snipaste_2024-08-12_15-20-49.png
   - app/api/audio/list/page.tsx
+  - app/page.tsx
