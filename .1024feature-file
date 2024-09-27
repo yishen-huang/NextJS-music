@@ -14,3 +14,4 @@ fileChangeLogs:
   - public/cover/Snipaste_2024-08-12_15-20-49.png
   - app/api/audio/list/page.tsx
   - app/page.tsx
+  - .pnpm-store
