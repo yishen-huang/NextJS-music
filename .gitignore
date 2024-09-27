@@ -41,11 +41,3 @@ Thumbs.db
 *.log
 *.tmp
 
-# Clacky-specific ignore rules
-*.clacky
-*.clackyignore
-.clackyconfig.json
-.clackyoutput/
-cython_debug/
-.git/
-/.pnpm-store
