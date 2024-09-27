@@ -46,3 +46,6 @@ Thumbs.db
 *.clackyignore
 .clackyconfig.json
 .clackyoutput/
+cython_debug/
+.git/
+/.pnpm-store
