@@ -44,3 +44,4 @@ Thumbs.db
 /public/cover/*
 /public/audio/*
 
+.pnpm-store/

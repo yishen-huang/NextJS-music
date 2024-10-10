@@ -1,0 +1,4 @@
+fileChangeLogs:
+  - node_modules
+  - .pnpm-store
+  - .gitignore
