@@ -1,0 +1,12 @@
+fileChangeLogs:
+  - node_modules
+  - '.1024'
+  - .gitignore
+  - .env
+  - prisma/migrations/migration_lock.toml
+  - prisma/migrations
+  - prisma/migrations/20241012104420_
+  - prisma/migrations/20241012104420_/migration.sql
+  - .next
+  - next-env.d.ts
+  - app/globals.css
