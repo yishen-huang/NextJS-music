@@ -1,0 +1,6 @@
+fileChangeLogs:
+  - node_modules
+  - '.1024'
+  - .gitignore
+  - .next
+  - next-env.d.ts

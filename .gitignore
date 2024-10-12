@@ -43,3 +43,14 @@ Thumbs.db
 
 /public/cover/*
 /public/audio/*
+
+# Additional ignores for system files and environment-specific configurations
+.env
+coverage/
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+/persistent-logs/
