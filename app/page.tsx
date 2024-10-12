@@ -11,7 +11,7 @@ export default function Home() {
     router.push('/audio/upload');
   };
 
-  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     const res = await fetch('/api/redis', {
       method: 'POST',
@@ -33,74 +33,31 @@ export default function Home() {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column', position: 'relative' }}>
-    <div style={{ position: 'absolute', top: '100px', left: '30px', textAlign: 'left', maxWidth: '3000px', fontSize: '14px', lineHeight: '1.5' }}>
-        Music List Management:<br />
-        GET /api/audio/list: Retrieves all music lists.<br />
-        POST /api/audio/list: Creates a new music list for a user. Validates the user and saves the list.<br />
-        PUT /api/audio/list: Adds a music track to an existing list.<br />
-        GET /api/audio: Retrieves all music details.<br />
-        POST /api/audio: Handles file uploads for music tracks and cover images
-    </div>
-    <div className="lyrics-section" style={{ position: 'absolute', bottom: '10px', left: '10px', backgroundColor: 'rgba(255, 255, 255, 0.8)', padding: '10px', borderRadius: '5px', boxShadow: '0 2px 10px rgba(0, 0, 0, 0.2)' }}>
-        <h2>黄河大合唱</h2>
-        <p>大河上下，流域悠长，<br />
-        人人歌唱，黄河大合唱！<br />
-        河水滚滚，舞动东风，<br />
-        我们的心，齐唱大合唱。</p>
-    </div>
+    <div className="container">
 
-      
-      <button 
-        onClick={handleClick} 
-        style={{ 
-          backgroundColor: 'blue', 
-          width: '200px', 
-          height: '100px',
-          fontSize: '16px',
-          cursor: 'pointer',
-          marginBottom: '400px' 
-        }}
-      >
+      <button onClick={handleClick} className="button">
         page jump
       </button>
-
-      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <input 
-          type="text" 
-          placeholder="Please enter key" 
-          value={key} 
-          onChange={(e) => setKey(e.target.value)} 
-          style={{ marginBottom: '20px', padding: '5px', fontSize: '16px', width: '200px' }}
+      <form onSubmit={handleSubmit} className="form">
+        <input
+          type="text"
+          placeholder="Please enter key"
+          value={key}
+          onChange={(e) => setKey(e.target.value)}
+          className="input"
         />
-        <input 
-          type="text" 
-          placeholder="Please enter value" 
-          value={value} 
-          onChange={(e) => setValue(e.target.value)} 
-          style={{ marginBottom: '20px', padding: '5px', fontSize: '16px', width: '200px' }}
+        <input
+          type="text"
+          placeholder="Please enter value"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          className="input"
         />
-        <button 
-          type="submit" 
-          style={{ padding: '50px 100px', fontSize: '24px', cursor: 'pointer', backgroundColor: 'red' }}
-        >
+        <button type="submit" className="submit-button">
           redis send
         </button>
       </form>
-      <button 
-        onClick={handleRedirect} 
-        style={{ 
-          position: 'absolute', 
-          bottom: '20px', 
-          right: '20px', 
-          backgroundColor: 'black', 
-          color: 'white', 
-          padding: '10px 20px', 
-          border: 'none', 
-          borderRadius: '5px',
-          cursor: 'pointer'
-        }}
-      >
+      <button onClick={handleRedirect} className="redirect-button">
         Go to Baidu
       </button>
     </div>
