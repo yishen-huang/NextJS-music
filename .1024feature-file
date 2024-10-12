@@ -10,3 +10,7 @@ fileChangeLogs:
   - .next
   - next-env.d.ts
   - app/globals.css
+  - app/page.tsx
+  - public/audio/140745.mp4
+  - public/cover/Snipaste_2024-09-13_16-02-44.png
+  - public/audio/Snipaste_2024-08-12_15-19-33.png
