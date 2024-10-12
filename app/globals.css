@@ -1,9 +1,10 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: lightyellow;
+  background-color: lightred;
 }
 
 button {
