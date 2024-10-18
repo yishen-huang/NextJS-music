@@ -60,6 +60,7 @@ export default function Home() {
       <button onClick={handleRedirect} className="redirect-button">
         Go to Baidu
       </button>
+      <p>本页面支持音乐列表管理和数据存储到Redis等功能.</p>
     </div>
   );
 }
